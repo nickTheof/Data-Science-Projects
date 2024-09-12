@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "employ-attrition"
+version = "0.1.0"
+description = ""
+authors = ["nickTheof <156532831+nickTheof@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
